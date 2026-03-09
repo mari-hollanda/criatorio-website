@@ -4,12 +4,12 @@ const highlights = [
   {
     icon: Leaf,
     title: "Produção desde 2018",
-    text: "Mais de sete anos de experiência em criação avícola com foco em qualidade genética.",
+    text: "Mais de oito anos de experiência em criação avícola com foco em qualidade genética.",
   },
   {
     icon: MapPin,
     title: "Operação local",
-    text: "Localizado em Saquarema – RJ, atendemos produtores e criadores da região.",
+    text: "Localizado em Saquarema – RJ, atendemos produtores e criadores do Brasil.",
   },
   {
     icon: ShieldCheck,
@@ -38,8 +38,7 @@ export function About() {
             O Criatório Nossa Senhora de Nazareth é uma propriedade familiar
             dedicada à produção avícola em Saquarema, Rio de Janeiro. Desde
             2018, trabalhamos com seriedade para oferecer aves e ovos férteis de
-            excelente padrão genético aos criadores e produtores rurais da
-            região.
+            excelente padrão genético aos criadores e produtores rurais.
           </p>
         </div>
         <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">

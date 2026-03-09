@@ -59,8 +59,8 @@ export function BreedsCarousel() {
             Racas disponiveis em nosso criatório
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-            Trabalhamos com racas selecionadas pela qualidade genética,
-            rusticidade e adaptacao ao clima de Saquarema.
+            Trabalhamos com raças selecionadas pela qualidade genética,
+            rusticidade e adaptação ao clima brasileiro.
           </p>
         </div>
 

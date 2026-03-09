@@ -17,21 +17,21 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title:
-    "Criatório Nossa Senhora de Nazareth | Ovos Férteis e Galinhas Poedeiras em Saquarema - RJ",
+    "Criatório Nossa Senhora de Nazareth | Ovos Férteis e Aves de Raça Pura",
   description:
-    "Criatório em Saquarema com produção própria desde 2018. Ovos férteis, pintinhos, matrizes e galinhas poedeiras com qualidade genética e manejo responsável. Atendimento direto com o produtor.",
+    "Criatório em Saquarema com produção própria desde 2018. Ovos férteis, pintinhos e matrizes com qualidade genética e manejo responsável. Atendimento direto com o produtor.",
   keywords: [
     "Ovos férteis em Saquarema",
-    "Galinhas poedeiras em Saquarema RJ",
+    "Aves de raça pura em Saquarema RJ",
     "Criatório em Saquarema",
     "Pintinhos Saquarema",
     "Matrizes galinhas RJ",
   ],
   openGraph: {
     title:
-      "Criatório Nossa Senhora de Nazareth | Ovos Férteis e Galinhas Poedeiras em Saquarema - RJ",
+      "Criatório Nossa Senhora de Nazareth | Ovos Férteis e Aves de Raça Pura",
     description:
-      "Produção própria desde 2018 em Saquarema - RJ. Ovos férteis, pintinhos, matrizes e galinhas poedeiras com qualidade genética e atendimento direto.",
+      "Produção própria desde 2018 em Saquarema - RJ. Ovos férteis, pintinhos e matrizes com qualidade genética e atendimento direto.",
     locale: "pt_BR",
     type: "website",
   },

@@ -5,7 +5,7 @@ const differentials = [
   "Atendimento direto com o produtor",
   "Manejo responsável e cuidado com o bem-estar animal",
   "Foco em qualidade genética das aves",
-  "Venda local em Saquarema e região",
+  "Venda local no Rio de Janeiro e Sedex Aéreo para todo o Brasil",
 ];
 
 export function Differentials() {
@@ -23,7 +23,7 @@ export function Differentials() {
             <p className="mt-4 max-w-lg text-lg leading-relaxed text-muted-foreground">
               Nossa dedicação vai além da produção. Cada ave é criada com
               atenção individualizada, garantindo saúde, qualidade genética e a
-              satisfação de quem adquire nossos produtos.
+              satisfação e garantia a aquisição de nossos produtos.
             </p>
           </div>
           <div className="flex-1">

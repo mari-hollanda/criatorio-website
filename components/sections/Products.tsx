@@ -9,16 +9,16 @@ const products = [
     title: "Ovos Férteis",
     slug: "ovos%20f%C3%A9rteis",
     description:
-      "Ovos férteis selecionados de plantéis com alto padrão genético. Ideal para incubação e início de criação.",
-    image: "/placeholder.jpg",
+      "Trabalhamos com seleção criteriosa para oferecer produtos de excelente padrão morfológico.",
+    image: "/images/ovos.jpeg",
     alt: "Ovos férteis selecionados do Criatório Nossa Senhora de Nazareth",
   },
   {
     title: "Pintinhos",
     slug: "pintinhos",
     description:
-      "Pintinhos saudáveis e vacinados, prontos para criação. Diversas raças disponíveis conforme a demanda.",
-    image: "/placeholder.jpg",
+      "Pintinhos saudáveis, vermifugados e vacinados, prontos para criação. Diversas raças disponíveis conforme a demanda.",
+    image: "/images/pintinhos.jpeg",
     alt: "Pintinhos saudáveis criados no Criatório em Saquarema",
   },
   {
@@ -26,16 +26,8 @@ const products = [
     slug: "matrizes",
     description:
       "Matrizes de qualidade genética comprovada para quem deseja iniciar ou melhorar seu plantel de reprodução.",
-    image: "/placeholder.jpg",
+    image: "/images/matrizes.jpeg",
     alt: "Matrizes de alta qualidade genética disponíveis em Saquarema",
-  },
-  {
-    title: "Galinhas Poedeiras",
-    slug: "galinhas%20poedeiras",
-    description:
-      "Galinhas poedeiras selecionadas por produtividade. Aves adaptadas ao clima da região de Saquarema.",
-    image: "/placeholder.jpg",
-    alt: "Galinhas poedeiras de alta produtividade em Saquarema RJ",
   },
 ];
 
@@ -52,14 +44,14 @@ export function Products() {
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
             Trabalhamos com seleção criteriosa para oferecer produtos de
-            excelente padrão aos criadores da região.
+            excelente padrão morfológico.
           </p>
         </div>
-        <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-16 mx-auto grid max-w-5xl gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center">
           {products.map((product) => (
             <article
               key={product.title}
-              className="group flex flex-col overflow-hidden rounded-xl border border-border bg-card transition-shadow hover:shadow-lg">
+              className="group flex w-full max-w-sm flex-col overflow-hidden rounded-xl border border-border bg-card transition-shadow hover:shadow-lg">
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
                   src={product.image}

@@ -13,22 +13,17 @@ export function Hero() {
             Desde 2018 em Saquarema - RJ
           </span>
           <h1 className="font-serif text-4xl font-bold leading-tight text-foreground md:text-5xl lg:text-6xl text-balance">
-            Ovos Férteis e Galinhas Poedeiras em Saquarema – RJ
+            Ovos Férteis e Aves de Raça Pura
           </h1>
           <p className="max-w-lg text-lg leading-relaxed text-muted-foreground md:text-xl">
-            Produção própria com qualidade genética e manejo responsável.
-            Atendimento direto com o produtor para criadores e pequenos
-            produtores rurais da região.
+            O Criatório Nazareth , nasceu de um sonho de criança que aos seis
+            anos dormia no seu quarto junto com pintinhos da criação de sua
+            família. Em 2018 esse sonho tornou-se real. Seguindo a padronização
+            da América Poultry Association (APA), nosso Criatório se
+            especializou em genética de ovos da cor azul e verde, adquirindo a
+            raça Ameraucana.
           </p>
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-center md:justify-start">
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-6 py-3.5 text-base font-semibold text-primary-foreground transition-colors hover:bg-primary/90">
-              Consultar disponibilidade
-              <ArrowRight className="h-4 w-4" />
-            </a>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -52,7 +47,7 @@ export function Hero() {
           </div>
           <div className="absolute -bottom-3 -left-3 hidden rounded-xl bg-card px-5 py-3 shadow-lg md:block">
             <p className="font-serif text-2xl font-bold text-primary">
-              +7 anos
+              +8 anos
             </p>
             <p className="text-sm text-muted-foreground">de produção local</p>
           </div>

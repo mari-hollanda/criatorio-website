@@ -8,33 +8,11 @@ export interface Raca {
   corOvos: string;
   pesoMedio: string;
   producaoMedia: string;
-  temperamento: string;
   indicacao: string[];
   imagem: string;
 }
 
 export const racas: Raca[] = [
-  {
-    nome: "Ameraucana",
-    slug: "ameraucana",
-    categoria: "Poedeira",
-    descricaoCurta:
-      "Raça americana famosa pelos ovos azulados e pela boa adaptação a diferentes sistemas de criação.",
-    historia:
-      "A Ameraucana foi desenvolvida nos Estados Unidos a partir de aves Araucanas originárias da América do Sul. Criadores americanos selecionaram a raça para manter a característica mais marcante: a produção de ovos de casca azul. Ao longo das décadas, tornou-se popular entre criadores que valorizam diversidade de cores nos ovos e rusticidade. No Brasil, a Ameraucana é apreciada em criatórios que buscam ovos diferenciados para venda direta e produção artesanal.",
-    origem: "Estados Unidos",
-    corOvos: "Azul",
-    pesoMedio: "2,2 a 3,0 kg",
-    producaoMedia: "180 a 220 ovos/ano",
-    temperamento: "Curioso e ativo",
-    indicacao: [
-      "Ideal para produção de ovos coloridos",
-      "Indicada para criadores que desejam diversidade no plantel",
-      "Boa adaptação a sistemas de criação ao ar livre",
-      "Excelente para venda direta de ovos especiais",
-    ],
-    imagem: "/images/racas/ameraucana.jpeg",
-  },
   {
     nome: "Ameraucana Black",
     slug: "ameraucana-black",
@@ -47,7 +25,6 @@ export const racas: Raca[] = [
     corOvos: "Azul",
     pesoMedio: "2,2 a 3,0 kg",
     producaoMedia: "180 a 220 ovos/ano",
-    temperamento: "Ativo e curioso",
     indicacao: [
       "Produção de ovos azulados",
       "Plantéis ornamentais e produtivos",
@@ -68,7 +45,6 @@ export const racas: Raca[] = [
     corOvos: "Azul",
     pesoMedio: "2,2 a 3,0 kg",
     producaoMedia: "180 a 220 ovos/ano",
-    temperamento: "Dócil e ativo",
     indicacao: [
       "Produção de ovos coloridos",
       "Criação ornamental e produtiva",
@@ -89,7 +65,6 @@ export const racas: Raca[] = [
     corOvos: "Marrom",
     pesoMedio: "4,5 a 5,5 kg",
     producaoMedia: "150 a 180 ovos/ano",
-    temperamento: "Calmo",
     indicacao: [
       "Produção de carne em grande escala",
       "Plantéis de grande porte",
@@ -110,7 +85,6 @@ export const racas: Raca[] = [
     corOvos: "Marrom",
     pesoMedio: "2,0 a 2,5 kg",
     producaoMedia: "280 a 320 ovos/ano",
-    temperamento: "Ativo",
     indicacao: [
       "Produção intensiva de ovos",
       "Granjas comerciais",
@@ -118,27 +92,6 @@ export const racas: Raca[] = [
       "Produtores focados em produtividade",
     ],
     imagem: "/images/racas/gsb.jpeg",
-  },
-  {
-    nome: "New Hampshire",
-    slug: "new-hampshire",
-    categoria: "Duplo propósito",
-    descricaoCurta:
-      "Raça americana rústica conhecida pela boa produção de ovos e crescimento rápido.",
-    historia:
-      "A New Hampshire foi desenvolvida nos Estados Unidos a partir da Rhode Island Red, sendo selecionada para crescimento mais rápido e maturidade precoce. É uma raça robusta e muito utilizada tanto para produção de ovos quanto para carne, especialmente em sistemas de criação rural.",
-    origem: "Estados Unidos",
-    corOvos: "Marrom",
-    pesoMedio: "3,0 a 3,9 kg",
-    producaoMedia: "220 a 260 ovos/ano",
-    temperamento: "Calmo e ativo",
-    indicacao: [
-      "Produção mista de ovos e carne",
-      "Criadores iniciantes",
-      "Sistemas de criação ao ar livre",
-      "Agricultura familiar",
-    ],
-    imagem: "/images/racas/new_hampshire.jpeg",
   },
   {
     nome: "Novogen Tinted",
@@ -152,7 +105,6 @@ export const racas: Raca[] = [
     corOvos: "Creme",
     pesoMedio: "1,9 a 2,3 kg",
     producaoMedia: "300 a 330 ovos/ano",
-    temperamento: "Ativo",
     indicacao: [
       "Produção comercial de ovos",
       "Granjas de postura",
@@ -173,7 +125,6 @@ export const racas: Raca[] = [
     corOvos: "Marrom claro",
     pesoMedio: "3,0 a 4,0 kg",
     producaoMedia: "200 a 240 ovos/ano",
-    temperamento: "Dócil",
     indicacao: [
       "Produção mista de ovos e carne",
       "Criação familiar",
@@ -181,6 +132,26 @@ export const racas: Raca[] = [
       "Plantéis rústicos e produtivos",
     ],
     imagem: "/images/racas/plymouth_rock_branca.jpeg",
+  },
+  {
+    nome: "Rhode Island Red",
+    slug: "rhode-island-red",
+    categoria: "Duplo propósito",
+    descricaoCurta:
+      "Uma das raças mais populares do mundo, conhecida pela rusticidade, excelente produção de ovos marrons e boa adaptação a diferentes sistemas de criação.",
+    historia:
+      "A Rhode Island Red surgiu no final do século XIX no estado de Rhode Island, nos Estados Unidos. A raça foi desenvolvida a partir do cruzamento de aves asiáticas e europeias, com o objetivo de criar uma galinha rústica que fosse eficiente tanto na produção de ovos quanto de carne. Com o tempo, tornou-se uma das raças mais utilizadas na avicultura mundial, especialmente em sistemas de produção familiar e criação ao ar livre. Sua resistência, boa conversão alimentar e postura consistente fazem da Rhode Island Red uma escolha muito popular entre criadores.",
+    origem: "Estados Unidos",
+    corOvos: "Marrom",
+    pesoMedio: "3,0 a 3,8 kg",
+    producaoMedia: "250 a 300 ovos/ano",
+    indicacao: [
+      "Produção mista de ovos e carne",
+      "Criadores iniciantes",
+      "Agricultura familiar",
+      "Sistemas de criação ao ar livre",
+    ],
+    imagem: "/images/racas/rhode_island_red.jpeg",
   },
   {
     nome: "Wyandotte",
@@ -194,7 +165,6 @@ export const racas: Raca[] = [
     corOvos: "Marrom claro",
     pesoMedio: "2,7 a 3,6 kg",
     producaoMedia: "200 a 240 ovos/ano",
-    temperamento: "Calmo",
     indicacao: [
       "Plantéis ornamentais e produtivos",
       "Produção de ovos e carne",

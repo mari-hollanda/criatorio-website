@@ -260,10 +260,6 @@ export default function RacaPage({ params }: PageProps) {
                     <p className="text-sm font-medium text-muted-foreground">
                       {char.label}
                     </p>
-
-                    <p className="mt-1 text-base font-semibold text-foreground">
-                      {raca[char.key]}
-                    </p>
                   </div>
                 </div>
               ))}
