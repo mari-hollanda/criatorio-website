@@ -17,7 +17,7 @@ import { Footer } from "@/components/layout/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 
 interface PageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export async function generateStaticParams() {
@@ -27,7 +27,8 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
-  const raca = getRacaBySlug(params.slug);
+  const { slug } = await params;
+  const raca = getRacaBySlug(slug);
   if (!raca) return {};
 
   return {
@@ -54,11 +55,11 @@ const characteristics = [
   { key: "corOvos" as const, label: "Cor dos ovos", icon: Palette },
   { key: "pesoMedio" as const, label: "Peso médio", icon: Weight },
   { key: "producaoMedia" as const, label: "Produção média", icon: Egg },
-  { key: "temperamento" as const, label: "Temperamento", icon: Heart },
 ];
 
-export default function RacaPage({ params }: PageProps) {
-  const raca = getRacaBySlug(params.slug);
+export default async function RacaPage({ params }: PageProps) {
+  const { slug } = await params;
+  const raca = getRacaBySlug(slug);
 
   if (!raca) {
     notFound();
@@ -259,6 +260,9 @@ export default function RacaPage({ params }: PageProps) {
                   <div>
                     <p className="text-sm font-medium text-muted-foreground">
                       {char.label}
+                    </p>
+                    <p className="mt-1 text-base font-semibold text-foreground">
+                      {raca[char.key]}
                     </p>
                   </div>
                 </div>

@@ -16,12 +16,12 @@ export function Hero() {
             Ovos Férteis e Aves de Raça Pura
           </h1>
           <p className="max-w-lg text-lg leading-relaxed text-muted-foreground md:text-xl">
-            O Criatório Nazareth , nasceu de um sonho de criança que aos seis
-            anos dormia no seu quarto junto com pintinhos da criação de sua
-            família. Em 2018 esse sonho tornou-se real. Seguindo a padronização
-            da América Poultry Association (APA), nosso Criatório se
-            especializou em genética de ovos da cor azul e verde, adquirindo a
-            raça Ameraucana.
+            O Criatório Nazareth nasceu de um sonho de criança que aos seis anos
+            dormia no seu quarto junto com pintinhos da criação de sua família.
+            Em 2018 esse sonho tornou-se real. Seguindo a padronização da
+            América Poultry Association (APA), nosso Criatório se especializou
+            em genética de ovos da cor azul e verde, adquirindo a raça
+            Ameraucana.
           </p>
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-center md:justify-start">
             <a

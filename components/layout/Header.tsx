@@ -9,9 +9,9 @@ const WHATSAPP_LINK =
 
 const navLinks = [
   { label: "Sobre", href: "/#sobre" },
+  { label: "Raças", href: "/racas" },
   { label: "Produtos", href: "/#produtos" },
   { label: "Diferenciais", href: "/#diferenciais" },
-  { label: "Raças", href: "/racas" },
 ];
 
 export function Header() {

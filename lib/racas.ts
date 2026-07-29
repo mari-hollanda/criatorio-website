@@ -16,14 +16,14 @@ export const racas: Raca[] = [
   {
     nome: "Ameraucana Black",
     slug: "ameraucana-black",
-    categoria: "Poedeira",
+    categoria: "Duplo propósito",
     descricaoCurta:
       "Variedade de Ameraucana com plumagem negra elegante e ovos azulados.",
     historia:
       "A Ameraucana Black é uma das variedades reconhecidas da raça Ameraucana. Sua plumagem completamente negra dá um visual marcante ao plantel, mantendo as características típicas da raça, como barba facial e produção de ovos azuis. Assim como outras Ameraucanas, é valorizada por criadores que buscam diversidade genética e estética no plantel.",
     origem: "Estados Unidos",
     corOvos: "Azul",
-    pesoMedio: "2,2 a 3,0 kg",
+    pesoMedio: "2,5 a 3,0 kg",
     producaoMedia: "180 a 220 ovos/ano",
     indicacao: [
       "Produção de ovos azulados",
@@ -36,14 +36,14 @@ export const racas: Raca[] = [
   {
     nome: "Ameraucana Splash",
     slug: "ameraucana-splash",
-    categoria: "Poedeira",
+    categoria: "Duplo propósito",
     descricaoCurta:
       "Variedade de Ameraucana com plumagem clara salpicada e ovos azulados.",
     historia:
       "A Ameraucana Splash apresenta uma plumagem clara com manchas irregulares azuladas ou acinzentadas. Essa coloração resulta de combinações genéticas relacionadas à plumagem azul. Apesar do visual diferenciado, mantém todas as características produtivas da raça Ameraucana, incluindo a postura de ovos de casca azul.",
     origem: "Estados Unidos",
     corOvos: "Azul",
-    pesoMedio: "2,2 a 3,0 kg",
+    pesoMedio: "2,5 a 3,0 kg",
     producaoMedia: "180 a 220 ovos/ano",
     indicacao: [
       "Produção de ovos coloridos",
@@ -56,11 +56,11 @@ export const racas: Raca[] = [
   {
     nome: "Gigante Negro de Jersey",
     slug: "gigante-negro-de-jersey",
-    categoria: "Corte",
+    categoria: "Duplo propósito",
     descricaoCurta:
       "Uma das maiores raças de galinha do mundo, valorizada pela produção de carne.",
     historia:
-      "O Jersey Giant foi desenvolvido nos Estados Unidos no final do século XIX com o objetivo de criar uma ave de grande porte que pudesse substituir o peru na produção de carne. A variedade negra tornou-se a mais conhecida. Com crescimento robusto e corpo largo, essa raça é muito valorizada por criadores que buscam aves de grande tamanho e boa qualidade de carne.",
+      "O Gigante Negro de Jersey foi desenvolvido nos Estados Unidos no final do século XIX com o objetivo de criar uma ave de grande porte que pudesse substituir o peru na produção de carne. A variedade negra tornou-se a mais conhecida. Com crescimento robusto e corpo largo, essa raça é muito valorizada por criadores que buscam aves de grande tamanho e boa qualidade de carne.",
     origem: "Estados Unidos",
     corOvos: "Marrom",
     pesoMedio: "4,5 a 5,5 kg",
@@ -76,62 +76,22 @@ export const racas: Raca[] = [
   {
     nome: "Galinha Sertaneja Balão (GSB)",
     slug: "gsb",
-    categoria: "Poedeira",
-    descricaoCurta:
-      "Linhagem moderna voltada para alta produção de ovos e boa adaptação a diferentes sistemas.",
-    historia:
-      "A linhagem GSB é utilizada em diversos sistemas de produção devido à sua eficiência na postura de ovos e capacidade de adaptação a diferentes manejos. Desenvolvida a partir de programas de melhoramento genético voltados à produtividade, apresenta boa conversão alimentar e postura consistente.",
-    origem: "Linhagem comercial",
-    corOvos: "Marrom",
-    pesoMedio: "2,0 a 2,5 kg",
-    producaoMedia: "280 a 320 ovos/ano",
-    indicacao: [
-      "Produção intensiva de ovos",
-      "Granjas comerciais",
-      "Sistemas semi-intensivos",
-      "Produtores focados em produtividade",
-    ],
-    imagem: "/images/racas/gsb.jpeg",
-  },
-  {
-    nome: "Novogen Tinted",
-    slug: "novogen-tinted",
-    categoria: "Poedeira",
-    descricaoCurta:
-      "Linhagem comercial altamente produtiva conhecida pela produção consistente de ovos claros.",
-    historia:
-      "A Novogen Tinted é uma linhagem moderna desenvolvida para produção eficiente de ovos. Criada por programas avançados de melhoramento genético, destaca-se pela alta produtividade e pela uniformidade na postura. É amplamente utilizada em sistemas comerciais de produção.",
-    origem: "França",
-    corOvos: "Creme",
-    pesoMedio: "1,9 a 2,3 kg",
-    producaoMedia: "300 a 330 ovos/ano",
-    indicacao: [
-      "Produção comercial de ovos",
-      "Granjas de postura",
-      "Alta eficiência alimentar",
-      "Produtores focados em volume de ovos",
-    ],
-    imagem: "/images/racas/novogen_tinted.jpeg",
-  },
-  {
-    nome: "Plymouth Rock Branca",
-    slug: "plymouth-rock-branca",
     categoria: "Duplo propósito",
     descricaoCurta:
-      "Variedade de Plymouth Rock com plumagem branca e excelente versatilidade produtiva.",
+      "Uma raça de galinha caipira gigante 100% brasileira originária do Nordeste (com fortes raízes na Bahia). Ela se destaca pelo grande porte, rusticidade e alta valorização ornamental.",
     historia:
-      "A Plymouth Rock Branca é uma variação da tradicional raça americana Plymouth Rock. Mantém as características de rusticidade, docilidade e boa produção de ovos, sendo também utilizada para produção de carne. Sua plumagem branca facilita o processamento em sistemas de produção.",
-    origem: "Estados Unidos",
-    corOvos: "Marrom claro",
-    pesoMedio: "3,0 a 4,0 kg",
-    producaoMedia: "200 a 240 ovos/ano",
+      "A linhagem GSB é utilizada em diversos sistemas de produção devido à sua rusticidade e adaptação a diferentes condições ambientais.  A raça apresenta boa conversão alimentar e postura consistente.",
+    origem: "Nordeste Brasileiro",
+    corOvos: "Marrom",
+    pesoMedio: "5,0 a 7,0 kg",
+    producaoMedia: "120 a 150 ovos/ano",
     indicacao: [
-      "Produção mista de ovos e carne",
-      "Criação familiar",
-      "Sistemas ao ar livre",
-      "Plantéis rústicos e produtivos",
+      "Para quem busca plumagens de cores variadas",
+      "Para quem procura galinhas pesadas",
+      "Galinhas dóceis",
+      "Galinhas com excelente conversão alimentar",
     ],
-    imagem: "/images/racas/plymouth_rock_branca.jpeg",
+    imagem: "/images/racas/gsb.jpeg",
   },
   {
     nome: "Rhode Island Red",
@@ -163,7 +123,7 @@ export const racas: Raca[] = [
       "A Wyandotte foi desenvolvida nos Estados Unidos no século XIX e recebeu esse nome em homenagem a uma tribo indígena americana. É uma raça valorizada tanto pela beleza de sua plumagem quanto pela capacidade produtiva. Possui diversas variedades de cor e é popular entre criadores que desejam um plantel ornamental e produtivo.",
     origem: "Estados Unidos",
     corOvos: "Marrom claro",
-    pesoMedio: "2,7 a 3,6 kg",
+    pesoMedio: "3,0 a 4,0 kg",
     producaoMedia: "200 a 240 ovos/ano",
     indicacao: [
       "Plantéis ornamentais e produtivos",
