@@ -23,7 +23,8 @@ export function Differentials() {
             <p className="mt-4 max-w-lg text-lg leading-relaxed text-muted-foreground">
               Nossa dedicação vai além da produção. Cada ave é criada com
               atenção individualizada, garantindo saúde, qualidade genética e a
-              satisfação e garantia a aquisição de nossos produtos.
+              satisfação e garantia de 50% de fertilidade na aquisição de nossos
+              produtos.
             </p>
           </div>
           <div className="flex-1">
